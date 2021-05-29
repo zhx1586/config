@@ -14,4 +14,4 @@ ln -s $ZSH_CONFIG_PATH/zshrc $HOME/.zshrc
 if [ -f $HOME/.p10k.zsh ]; then 
 	mv $HOME/.p10k.zsh $HOME/.zsh-bak/p10k.zsh-bak-`date +%Y%m%d%H%M%S`
 fi
-ln -s $ZSH_CONFIG_PATH/p10k.zsh $HOME/.p10k.zsh
+cp $ZSH_CONFIG_PATH/p10k.zsh $HOME/.p10k.zsh
