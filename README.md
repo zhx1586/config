@@ -1,15 +1,13 @@
 # My Local Config
 
-- author: zhx1586|zhx1586@126.com
+- Author: zhx1586|zhx1586@126.com
 
-- recommend path: `$HOME/.local/config`
+- Recommend path: `export MY_CONFIG_PATH=$HOME/.local/config`
 
-## 1. zshell
+- Install command: `cd $MY_CONFIG_PATH && ./install.sh`
 
-- install
+## 1. Zshell Config
 
-    `source $MY_CONFIG_PATH/zshell/install.sh`
-
-- plugins
+- Plugins:
 
     - powerlevel10k
