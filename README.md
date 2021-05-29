@@ -1,4 +1,6 @@
-# my local config (author: zhx1586|zhx1586@126.com)
+# My Local Config
+
+- author: zhx1586|zhx1586@126.com
 
 - recommend path: `$HOME/.local/config`
 
