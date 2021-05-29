@@ -7,4 +7,5 @@
 export MY_CONFIG_PATH=$HOME/.local/config
 
 # plugin: https://github.com/romkatv/powerlevel10k.git
+source $HOME/.p10k.zsh
 source $MY_CONFIG_PATH/zshell/powerlevel10k/powerlevel10k.zsh-theme
