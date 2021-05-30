@@ -4,9 +4,13 @@
 
 # env
 export MY_CONFIG_PATH=$HOME/.local/config
+export PATH=$HOME/.local/bin:$PATH
 
 # alias
 alias config="cd ${MY_CONFIG_PATH}"
+if [[ -n $(command -v nvim) ]]; then 
+	alias vim="nvim"
+fi
 
 # plugin: powerlevel10k
 source $HOME/.p10k.zsh
