@@ -11,6 +11,8 @@ alias config="cd ${MY_CONFIG_PATH}"
 if [[ -n $(command -v nvim) ]]; then 
 	alias vim="nvim"
 fi
+alias ll="ls -l"
+alias la="ls -al"
 
 # plugin: powerlevel10k
 source $HOME/.p10k.zsh
