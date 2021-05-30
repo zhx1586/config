@@ -9,6 +9,7 @@ let g:plug_list += ['coc-nvim']
 let g:plug_list += ['vim-go']
 let g:plug_list += ['tagbar']
 let g:plug_list += ['fzf']
+let g:plug_list += ['leetcode']
 " let g:plug_list += ['youcompleteme']
 
 call plug#begin('$HOME/.config/nvim/plugged')
@@ -232,13 +233,19 @@ if index(g:plug_list, 'youcompleteme') >= 0
     " let g:ycm_show_diagnostics_ui = 0
 endif
 
+"------------------------------------------------------------
+" leetcode
+"------------------------------------------------------------
+if index(g:plug_list, 'leetcode') >= 0
+    Plug 'ianding1/leetcode.vim'
+endif
 
 "------------------------------------------------------------
 " coc-nvim
 "------------------------------------------------------------
 if index(g:plug_list, 'coc-nvim') >= 0
     " 默认开启的 coc 扩展
-    let g:coc_global_extensions = ['coc-json', 'coc-go', 'coc-python', 'coc-sh']
+    let g:coc_global_extensions = ['coc-json', 'coc-go', 'coc-python', 'coc-sh', 'coc-vimlsp']
 
     Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() }}
 
