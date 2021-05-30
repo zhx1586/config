@@ -11,3 +11,5 @@
 - Plugins:
 
     - powerlevel10k
+
+    - zsh-autosuggestions

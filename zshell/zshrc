@@ -8,3 +8,6 @@ export MY_CONFIG_PATH=$HOME/.local/config
 # plugin: powerlevel10k
 source $HOME/.p10k.zsh
 source $MY_CONFIG_PATH/zshell/powerlevel10k/powerlevel10k.zsh-theme
+
+# plugin: zsh-autosuggestions
+source $MY_CONFIG_PATH/zshell/zsh-autosuggestions/zsh-autosuggestions.zsh
