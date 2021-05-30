@@ -13,3 +13,5 @@
     - powerlevel10k
 
     - zsh-autosuggestions
+
+    - zsh-syntax-highlighting
