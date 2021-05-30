@@ -15,3 +15,9 @@
     - zsh-autosuggestions
 
     - zsh-syntax-highlighting
+
+## 2. Dependency Install
+
+- neovim:
+
+    - `./$MY_CONFIG_PATH/dependency/install-nvim.sh`
