@@ -36,6 +36,8 @@
 
     - vim-go
 
+    - leetcode
+
 ## 3. Dependency Install
 
 - neovim:
