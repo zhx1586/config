@@ -18,7 +18,25 @@
 
     - zsh-syntax-highlighting
 
-## 2. Dependency Install
+## 2. Neovim Config
+
+- Plugins:
+
+    - airline
+
+    - nerdtree
+
+    - gitgutter
+
+    - easymotion
+
+    - fzf
+
+    - coc-nvim
+
+    - vim-go
+
+## 3. Dependency Install
 
 - neovim:
 
