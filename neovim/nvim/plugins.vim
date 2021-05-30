@@ -275,23 +275,11 @@ if index(g:plug_list, 'coc-nvim') >= 0
     " 使用 <cr> 确认补全
     inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-    " Remap keys for gotos
+    " 定义跳转快捷指令
     nmap <silent> gd <Plug>(coc-definition)
     nmap <silent> gy <Plug>(coc-type-definition)
     nmap <silent> gi <Plug>(coc-implementation)
     nmap <silent> gr <Plug>(coc-references)
-
-    " Use K to show documentation in preview window
-    " nnoremap <silent> K :call <SID>show_documentation()<CR>
-
-    " function! s:show_documentation()
-      " if (index(['vim','help'], &filetype) >= 0)
-        " execute 'h '.expand('<cword>')
-      " else
-        " call CocAction('doHover')
-      " endif
-    " endfunction
-
 endif
 
 
