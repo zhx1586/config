@@ -12,6 +12,8 @@
 
     - powerlevel10k
 
+    - fzf
+
     - zsh-autosuggestions
 
     - zsh-syntax-highlighting
