@@ -5,6 +5,9 @@
 # env
 export MY_CONFIG_PATH=$HOME/.local/config
 
+# alias
+alias config="cd ${MY_CONFIG_PATH}"
+
 # plugin: powerlevel10k
 source $HOME/.p10k.zsh
 source $MY_CONFIG_PATH/zshell/powerlevel10k/powerlevel10k.zsh-theme
