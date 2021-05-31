@@ -253,7 +253,7 @@ endif
 "------------------------------------------------------------
 if index(g:plug_list, 'coc-nvim') >= 0
     " 默认开启的 coc 扩展
-    let g:coc_global_extensions = ['coc-json', 'coc-go', 'coc-python', 'coc-sh', 'coc-vimlsp']
+    let g:coc_global_extensions = ['coc-json', 'coc-go', 'coc-python', 'coc-sh', 'coc-vimlsp', 'coc-markdownlint']
 
     Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': { -> coc#util#install() }}
 
