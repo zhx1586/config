@@ -13,6 +13,12 @@ if [[ -n $(command -v nvim) ]]; then
 fi
 alias ll="ls -l"
 alias la="ls -al"
+alias tmux="tmux -2"
+
+# tmux
+if [[ -z "$TMUX" ]]; then
+    tmux attach-session || tmux new-session -s tmp
+fi
 
 # plugin: powerlevel10k
 source $HOME/.p10k.zsh
