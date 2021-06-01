@@ -2,8 +2,11 @@
 
 git submodule update --init
 
-echo "zshell install..."
+echo "zshell config install..."
 source ./zshell/install.sh
 
-echo "neovim install..."
+echo "neovim config install..."
 source ./neovim/install.sh
+
+echo "tmux config install..."
+source ./tmux/install.sh

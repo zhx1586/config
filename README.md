@@ -10,36 +10,46 @@
 
 - Plugins:
 
-    - powerlevel10k
+  - powerlevel10k
 
-    - fzf
+  - fzf
 
-    - zsh-autosuggestions
+  - zsh-autosuggestions
 
-    - zsh-syntax-highlighting
+  - zsh-syntax-highlighting
 
 ## 2. Neovim Config
 
 - Plugins:
 
-    - airline
+  - airline
 
-    - nerdtree
+  - nerdtree
 
-    - gitgutter
+  - gitgutter
 
-    - easymotion
+  - easymotion
 
-    - fzf
+  - fzf
 
-    - coc-nvim
+  - coc-nvim
 
-    - vim-go
+  - vim-go
 
-    - leetcode
+  - leetcode
 
-## 3. Dependency Install
+## 3. Tmux Config
+
+- Plugins:
+
+  - tpm
+
+  - tmux-sensible
+
+  - tmux-resurrect
+
+## 4. Dependency Install
 
 - neovim:
 
-    - `./$MY_CONFIG_PATH/dependency/install-nvim.sh`
+  - `./$MY_CONFIG_PATH/dependency/install-nvim.sh`
