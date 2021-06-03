@@ -27,6 +27,9 @@ source $MY_CONFIG_PATH/zshell/powerlevel10k/powerlevel10k.zsh-theme
 # plugin: fzf
 [[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
 
+# plugin: zsh-completions
+source $MY_CONFIG_PATH/zshell/zsh-completions/zsh-completions.plugin.zsh
+
 # plugin: zsh-autosuggestions
 source $MY_CONFIG_PATH/zshell/zsh-autosuggestions/zsh-autosuggestions.zsh
 
