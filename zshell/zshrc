@@ -27,6 +27,12 @@ source $MY_CONFIG_PATH/zshell/powerlevel10k/powerlevel10k.zsh-theme
 # plugin: fzf
 [[ -f $HOME/.fzf.zsh ]] && source $HOME/.fzf.zsh
 
+# plugin: git-completions
+zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.bash
+fpath=(~/.zsh $fpath)
+
+autoload -Uz compinit && compinit
+
 # plugin: zsh-completions
 source $MY_CONFIG_PATH/zshell/zsh-completions/zsh-completions.plugin.zsh
 

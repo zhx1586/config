@@ -14,6 +14,8 @@
 
   - fzf
 
+  - git-completions
+
   - zsh-completions
 
   - zsh-autosuggestions
